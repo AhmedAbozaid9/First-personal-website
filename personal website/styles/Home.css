@@ -1,0 +1,90 @@
+body{
+    margin: 0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.main{
+    background-image: url("../imgs/background.png");
+    margin-top: 0em;
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+
+.links a{
+    text-decoration: none;
+    padding-left: 3%;
+    color: white;
+    
+}
+.links a:hover{
+    color: cyan;
+}
+.websites{
+    display: inline-block;
+    width: initial;
+    background-color:rgb(185, 5, 35) ;
+    padding: 1.1%;
+}
+.logo{
+    width: 45px;
+    padding-left: 0.5%;
+}
+.links{
+    margin: 0%;
+    background-color:rgb(154, 5, 35);
+    display: inline-block;
+    width: 80%;
+    margin: 0%;
+    padding: 1% 8% 1% 1%;
+    text-align: left;
+}
+span{
+    color: white;
+    font-size: 200%;
+    font-family: monospace;
+    margin: 0%;
+    background-color:rgb(126, 5, 35);
+    width: 11%;
+    float: left;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.main a{
+    text-decoration: none;
+    padding: 1% 2%;
+    margin: 5%; 
+    color: white;
+    background-color:rgb(37, 37, 37);
+}
+.main a:hover{
+    background-color: white;
+    color: rgb(5, 189, 189);
+}
+.border{
+    border-bottom: rgb(255, 255, 255) 2px solid;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+.welcome{
+    margin:0%;
+    padding: 0.1%;
+    text-decoration: rgb(141, 1, 1) underline;
+}
+.introduction{
+   
+    display: inline-block;
+    width: 40%;
+}
+footer{
+    margin-top: 12%;
+    background-color: black;
+    color: white;  
+    padding-top: 1.35%; 
+    padding-bottom: 1.35%;
+}

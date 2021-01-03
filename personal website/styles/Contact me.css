@@ -1,0 +1,102 @@
+body{
+    margin: 0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    
+}
+.links{
+    margin: 0%;
+    background-color:rgb(154, 5, 35);
+    display: inline-block;
+    width: 80%;
+    margin: 0%;
+    padding: 1% 8% 1% 1%;
+    text-align: left;
+}
+.links a{
+    text-decoration: none;
+    padding-left: 3%;
+    color: white;
+    
+}
+.links a:hover{
+    color: cyan;
+}
+span{
+    color: white;
+    font-size: 200%;
+    font-family: monospace;
+    margin: 0%;
+    background-color:rgb(126, 5, 35);
+    width: 11%;
+    float: left;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.textInput{
+    display: block;
+    width: 80%;
+    height: 5%;
+    border: none;
+    border-bottom: 3px solid rgb(136, 2, 2);
+    margin-left: 1%;
+    font-size: 100%;
+    
+
+}
+.textInput:focus{
+    outline: none;
+    background-color: rgba(241, 111, 111, 0.37);
+}
+form label{
+    margin-left: 2%;
+    
+}
+form{
+    margin: 2%;
+    margin-top: 7%;
+    font-size: 150%;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+#submit{
+    font-size: 90%;
+    margin: 2%;
+    background-color: rgb(190, 0, 0);
+    border: none;
+    padding: 1%;
+    color: white;
+
+}
+#submit:hover{
+    background-color: black;
+}
+.social{
+    width: 30%;
+    float: left;
+}
+.main{
+    background-image: url("../imgs/background.png");
+    margin-top: 0em;
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    padding: 3%;
+ 
+}
+h1{
+    padding-bottom: 2%;
+    border-bottom: white 2px solid;
+}
+footer{
+    margin-top: 26em;
+    background-color: black;
+    color: white;  
+    padding-top: 1.35%; 
+    padding-bottom: 1.35%;
+    text-align: center;
+}

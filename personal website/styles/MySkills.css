@@ -1,0 +1,51 @@
+body{
+    margin:0%;
+    background-color: rgb(27, 27, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    font-size: 150%;
+    padding-right: 3%;
+    color:white;
+    margin: 0%;
+    
+}
+.links a:hover{
+    color: rgb(185, 5, 35);
+}
+.links{
+    background-color: rgb(2, 161, 161);
+    padding: 1%;
+}
+header{
+    text-align: center;
+    border-bottom: 1px solid rgb(2, 161, 161) ;
+}
+.sidebar{
+    float: right;
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    background-color:rgb(41, 40, 40) ;
+    border-radius: 3%;
+}
+.Skills{
+    
+    width: 50%;
+    float: left;
+    padding: 1%;
+    background-color:rgb(41, 40, 40) ;
+    border-radius: 3%;
+    margin: 1%;
+}
+footer{
+    margin-top: 34%;
+    background-color: black;
+    color: white;  
+    padding-top: 1.35%; 
+    padding-bottom: 1.35%;
+    text-align: center;
+}
